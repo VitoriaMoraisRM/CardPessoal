@@ -1,0 +1,30 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    display: flex;
+    background-color: pink;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+
+}
+
+.image{
+    width: 5cm;
+}
+
+.icons{
+    display: flex;
+    align-items: flex-end;
+    
+}

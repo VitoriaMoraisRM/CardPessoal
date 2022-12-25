@@ -1,30 +1,48 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
     text-decoration: none;
 }
 
-html{
-    display: flex;
+html {
     background-color: pink;
+    display: flex;
     justify-content: center;
 }
 
-.card{
+body {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    background-color: white;
+    flex-direction: column;
+    margin: 150px;
+}
 
+.card {
+    background-color: white;
+    border-radius: 25%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
 }
 
 .image{
+    border-radius: 100%;
+    box-shadow: 5px 5px 10px pink;
     width: 5cm;
 }
 
-.icons{
+
+
+#icons {
+    width: 40px;
+    height: 40px;
+}
+
+
+/*Id de todos os conteudos do body*/
+#content {
     display: flex;
-    align-items: flex-end;
-    
+
 }

@@ -15,7 +15,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: 150px;
+    margin: 110px;
 }
 
 .card {
@@ -24,25 +24,44 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    
+    padding: 25px;
 }
 
 .image{
     border-radius: 100%;
     box-shadow: 5px 5px 10px pink;
     width: 5cm;
+    
+}
+
+.texts{
+    color: rgb(119, 43, 54);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.infor{
+    display: flex;
+    padding: 5px;
+    gap: 50px;
 }
 
 
 
-#icons {
-    width: 40px;
-    height: 40px;
+.button{
+    display: flex;
 }
+
+.icons {
+    width: 30px;
+    height: 30px;
+}
+
 
 
 /*Id de todos os conteudos do body*/
-#content {
+.content {
     display: flex;
 
 }

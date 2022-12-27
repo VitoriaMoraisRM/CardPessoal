@@ -15,53 +15,58 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: 110px;
+    margin: 100px;
 }
 
 #card {
     background-color: white;
-    border-radius: 25%;
+    border-radius: 20%;
     display: flex;
     align-items: center;
     flex-direction: column;
     padding: 25px;
 }
 
-.image{
+.image {
     border-radius: 100%;
     box-shadow: 5px 5px 10px pink;
     width: 5cm;
-    
+
 }
 
-.texts{
-    color: rgb(119, 43, 54);
+.texts {
+    color: #772b36;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.infor{
+.infor,
+#networks {
     display: flex;
     padding: 5px;
-    gap: 50px;
+    gap: 25px;
 }
 
-
-
-.button{
-    display: flex;
+.button {
+    background-color: white;
+    width: 160px;
+    height: 40px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #772b36;
 }
+
+.button:hover {
+    background-color: #8b8585;
+}
+
 
 .icons {
-    width: 30px;
-    height: 30px;
-}
-
-
-
-/*Id de todos os conteudos do body*/
-.content {
-    display: flex;
-
+    width: 50px;
+    height: 50px;
+    padding: 10px;
 }

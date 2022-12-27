@@ -1,3 +1,2 @@
-# CardPessoalAtualizado
-Quase finalizado...
-Tornar site responsivo.
+# CardPessoal
+Com algumas atualizações e código refatorado.
